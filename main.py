@@ -36,10 +36,10 @@ ____ _ _  _ ___  ____ ____
                            
 """)
 
-#your webhook
-hook = input("[-] Enter your webhook url: "))
+#DarkaFinder
+hook = input("[-] Enter your webhook url: https://discord.com/api/webhooks/1001910996245413930/dbifj0JKDjy1pvsqtmUJPdc0AJOASkDjyNXscpfxb-V37Wda50RlhQP97buPLR4Q-vaW "))
 #number of threads
-threads = int(input("[-] How many threads: "))
+threads = int(input("[-] How many threads: 20243-345354 "))
 
 while True:
     if threading.active_count() <= threads:
